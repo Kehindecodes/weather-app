@@ -1,5 +1,6 @@
 class Weather{
-    constructor(city){
+    constructor(city
+        ){
         this.apiKey ="5edbd2cdaddfa3bb917f860f18c33db7";
         this.city = city;
          
@@ -12,8 +13,8 @@ class Weather{
     }
 
     // Change  weather Location
-    changeLocation(city,state){
+    changeLocation(city,){
         this.city =city;
-        this.state = state;
+
     }
 }

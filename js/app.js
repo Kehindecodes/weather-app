@@ -7,8 +7,11 @@
   const weather = new Weather (weatherLocation.city);
   // init UI Object
   const ui = new UI(); 
+ 
 // get weather on Dom load
 document.addEventListener('DOMContentLoaded',getWeather)
+
+
 
 // change location event
 document.getElementById('w-change-btn').addEventListener('click',(e)=>{
